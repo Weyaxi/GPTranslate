@@ -41,4 +41,4 @@ To run GPTranslate, you need to have the following:
 
 ## Demo
 
-![demo](https://github.com/Weyaxi/GPTranslate/assets/81961593/69af5ff6-3b3b-452f-92d5-1908b8939ff3)
+![demo](https://github.com/Weyaxi/GPTranslate/assets/81961593/4804651f-7a0b-4d46-a891-73f1c6ea22f0)
