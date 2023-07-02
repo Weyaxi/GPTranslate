@@ -16,7 +16,7 @@ To run GPTranslate, you need to have the following:
 1. Clone the GPTranslate repository to your local machine with this code:
 
     ```shell
-    git clone https://github.com/your-username/GPTranslate.git
+    git clone https://github.com/Weyaxi/GPTranslate.git
     ```
 
 3. Navigate to the project directory:
