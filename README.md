@@ -1,6 +1,6 @@
 # GPTranslate
 
-GPTranslate is a translation application built using the GPT-3.5 language model from OpenAI. It utilizes the Flask web framework to create a user interface where users can enter text to be translated between different languages. The application makes use of the OpenAI GPT API to perform the translation.
+GPTranslate is a translation application that uses GPT for translation. It utilizes the Flask web framework to create a user interface where users can enter text to be translated between different languages. The application makes use of the OpenAI GPT API to perform the translation.
 
 ## Prerequisites
 
