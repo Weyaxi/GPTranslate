@@ -29,6 +29,11 @@ language_dict = {"af": "Afrikaans", "sq": "Albanian", "am": "Amharic", "ar": "Ar
                  "yo": "Yoruba", "zu": "Zulu"}
 
 
+@app.route('/languages')
+def get_languages():
+    return jsonify(language_dict)
+
+
 @app.route('/')
 def index():
     return render_template('index.html')
