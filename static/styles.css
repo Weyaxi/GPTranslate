@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #1a202c;
+    color: white;
+}
+#wrapper {
+    text-align: center;
+    width: 100%;
+}
+#text-input,
+#translation-output {
+    width: 85%;
+    height: 275px;
+    margin-top: 10px;
+    border: 2px solid #92d1ab;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+    background-color: #1a202c;
+    color: white;
+}
+#translation-output[readonly] {
+    background-color: #1a202c;
+    cursor: not-allowed;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 40%;
+}
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+select {
+    border: 0px solid #fff;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    width: 85%;
+    text-align: center;
+}
+
+select option {
+    background-color: #2d3748;
+    text-align: center;
+}
+.form-group select[name="translation-service"] {
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #92d1ab;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: darkgreen;
+}
+#cont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
