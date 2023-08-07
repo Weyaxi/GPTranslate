@@ -19,21 +19,21 @@ To run GPTranslate, you need to have the following:
     git clone https://github.com/Weyaxi/GPTranslate.git
     ```
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
    
     ```shell
     cd GPTranslate
     ```
 
-5. Install the project dependencies:
+3. Install the project dependencies:
    
     ```shell
     pip3 install -r requirements.txt
     ```
 
-7. Open the main.py file and replace the placeholder value for openai.api_key with your actual OpenAI API key.
+4. Open the main.py file and replace the placeholder value for openai.api_key with your actual OpenAI API key.
 
-8. Start the application:
+5. Start the application:
 
    ```shell
     python3 main.py
